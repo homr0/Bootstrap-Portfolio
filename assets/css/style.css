@@ -24,3 +24,15 @@ nav {
 nav .navbar-nav {
     flex-direction: row;
 }
+
+.navbar-nav .navbar-item {
+    color: inherit;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 52px;
+}
