@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 nav {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
-    height: 80px;
+    height: 5rem;
     z-index: 1;
     top: 0;
 }
@@ -48,6 +48,7 @@ footer {
 
 main {
     min-height: calc(100vh - 11rem);
+    margin-top: 6rem;
 }
 
 main .container {
@@ -60,3 +61,4 @@ main hr {
     background-color: #cccccc;
     border: none;
 }
+
