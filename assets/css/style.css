@@ -54,3 +54,9 @@ main .container {
     background-color: #ffffff;
     border: 1px #dddddd solid;
 }
+
+main hr {
+    height: 2px;
+    background-color: #cccccc;
+    border: none;
+}
