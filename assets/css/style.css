@@ -20,6 +20,12 @@ nav {
     top: 0;
 }
 
+.navbar-nav .navbar-brand {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 5rem;
+}
+
 nav .navbar-nav {
     flex-direction: row;
 }
@@ -36,11 +42,11 @@ nav .navbar-nav {
 footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    height: 60px;
+    height: 4rem;
 }
 
 main {
-    min-height: calc(100vh - 140px);
+    min-height: calc(100vh - 11rem);
 }
 
 main .container {
