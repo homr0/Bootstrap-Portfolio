@@ -37,3 +37,8 @@ footer {
 main {
     min-height: calc(100vh - 140px);
 }
+
+main .container {
+    background-color: #ffffff;
+    border: 1px #dddddd solid;
+}
