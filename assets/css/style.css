@@ -15,8 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 nav {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
-    height: 79px;
-    position: fixed;
+    height: 80px;
     z-index: 1;
     top: 0;
 }
@@ -30,9 +29,11 @@ nav .navbar-nav {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    height: 52px;
+    height: 60px;
+}
+
+main {
+    min-height: calc(100vh - 140px);
 }
