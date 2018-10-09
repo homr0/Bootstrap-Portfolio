@@ -62,3 +62,24 @@ main hr {
     border: none;
 }
 
+.portfolio a {
+    position: relative;
+}
+
+.portfolio p {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+.portfolio a:hover p, input[type="submit"]:hover {
+    background-color: #1f5d5a;
+    cursor: pointer;
+}
+
+.portfolio a:hover img {
+    opacity: 0.8;
+}
