@@ -69,3 +69,10 @@ main hr {
 .portfolio a:hover img {
     opacity: 0.8;
 }
+
+input[type="submit"] {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 12px 24px;
+    border: none;
+}
