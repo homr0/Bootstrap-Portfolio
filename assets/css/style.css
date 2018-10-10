@@ -15,28 +15,14 @@ h1, h2, h3, h4, h5, h6 {
 nav {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
-    height: 5rem;
-    z-index: 1;
+    min-height: 5rem;
     top: 0;
 }
 
-.navbar-nav .navbar-brand {
+nav.navbar .navbar-brand {
     color: #ffffff;
     background-color: #4aaaa5;
     height: 5rem;
-}
-
-nav .navbar-nav {
-    flex-direction: row;
-}
-
-.navbar-nav .nav-item {
-    color: inherit;
-}
-
-.navbar-nav .nav-item:hover {
-    color: #4a5554;
-    text-decoration: none;
 }
 
 footer {
@@ -48,7 +34,7 @@ footer {
 
 main {
     min-height: calc(100vh - 11rem);
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 
 main .container {
